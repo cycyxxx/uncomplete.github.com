@@ -6,7 +6,6 @@ var GameLayer = cc.Layer.extend({
 
         this._super();
         var size = cc.winSize;
-        cc.spriteFrameCache.addSpriteFrames(res.tieba1_plist);
 
         var bb = new cc.Sprite(res.bb_png);
         bb.setPosition(size.width/2,100);
